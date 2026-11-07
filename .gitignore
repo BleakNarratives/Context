@@ -1,0 +1,7 @@
+# Local device inventories and session data are never committed by default.
+.workbench-local/
+*.inventory.json
+*.device-report.json
+.env
+.env.*
+!.env.example
