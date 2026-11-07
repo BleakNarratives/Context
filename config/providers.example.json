@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "name": "ollama-local",
+      "type": "ollama",
+      "base_url": "http://127.0.0.1:11434",
+      "model": "REPLACE_WITH_INSTALLED_MODEL",
+      "enabled": false
+    },
+    {
+      "name": "openai-compatible-example",
+      "type": "openai-compatible",
+      "base_url": "https://REPLACE_WITH_PROVIDER/v1",
+      "model": "REPLACE_WITH_MODEL_ID",
+      "api_key_env": "WORKBENCH_API_KEY",
+      "enabled": false
+    }
+  ]
+}
